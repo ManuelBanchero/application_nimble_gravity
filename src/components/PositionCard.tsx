@@ -90,7 +90,7 @@ export default function PositionCard({
                         </button>
                     ) : (
                         <div
-                            className="w-[300px] bg-green-200 text-white mt-4! p-2"
+                            className="w-[300px] bg-green-400 text-white mt-4! p-2"
                         >
                             Application submitted
                         </div>
