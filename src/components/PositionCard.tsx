@@ -32,6 +32,7 @@ export default function PositionCard({
                     return { error: 'The URL length is not valid' }
 
                 const res = await fetch(`${BASE_URL}/api/candidate/apply-to-job`, {
+                    method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     }, 
