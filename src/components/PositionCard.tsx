@@ -40,7 +40,8 @@ export default function PositionCard({
                         uuid: userData.uuid,
                         jobId: id,
                         candidateId: userData.candidateId,
-                        repoUrl: repository
+                        repoUrl: repository,
+                        applicationId: userData.applicationId
                     })
                 })
 
